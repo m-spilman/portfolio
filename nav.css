@@ -1,0 +1,54 @@
+#wrapper{
+    display:flex;
+    flex-direction: column;
+}
+#topContainer{
+    display:flex;
+}
+#topLeftColumn{
+    flex: 1;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+#topCenterColumn{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#nav{
+    flex: 5;
+    background-color: white;
+}
+
+#menu{
+display:flex;
+flex-direction: row;
+justify-content: flex-end;
+padding-right: 200px;
+
+}
+ul{
+    list-style-type:none; 
+}
+
+#line{
+flex: 7;
+
+}
+.horizontal_line{
+    border-top: 1px solid black;
+}
+#emptyBottom{
+    flex: 3;
+
+}
+#topRight{
+    flex: .3;
+}
+
+
+
+
+
