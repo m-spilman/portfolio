@@ -1,5 +1,5 @@
 
-p{
+.aboutPara{
     font-family: 'Lato', sans-serif;
     margin: 2%;
     font-size: 17pt;
@@ -21,4 +21,25 @@ p{
 }
 #resumeContainer{
     padding-bottom: 1%;
+}
+
+
+footer{
+    background-color: black;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    padding: 2%;
+    width: 100%;
+    text-align:  center;
+    max-height: 50px;
+    font-size: 17pt;
+}
+#wrapper{
+    min-height: 95vh;
+   
+}
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
