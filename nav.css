@@ -6,10 +6,11 @@
     display:flex;
 }
 #topLeftColumn{
-    flex: 1;
+    /* flex: 1; */
     text-align: center;
     padding-left: 2%;
     padding-right: 1%;
+    flex-grow: 1;
 }
 
 #topCenterColumn{
